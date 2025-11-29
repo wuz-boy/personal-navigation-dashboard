@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人导航站</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>我的工作台</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索网站...">
+                <i class="fas fa-search"></i>
+            </div>
+        </header>
+        
+        <main>
+            <div class="category">
+                <h2>开发工具</h2>
+                <div class="sites-grid">
+                    <a href="https://deepseek.com" target="_blank" class="site-card" data-name="deepseek ai">
+                        <i class="fas fa-robot"></i>
+                        <span>DeepSeek</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="site-card" data-name="github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://stackoverflow.com" target="_blank" class="site-card" data-name="stackoverflow">
+                        <i class="fab fa-stack-overflow"></i>
+                        <span>Stack Overflow</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="category">
+                <h2>社交娱乐</h2>
+                <div class="sites-grid">
+                    <a href="https://bilibili.com" target="_blank" class="site-card" data-name="bilibili b站">
+                        <i class="fas fa-play-circle"></i>
+                        <span>哔哩哔哩</span>
+                    </a>
+                    <a href="https://weixin.qq.com" target="_blank" class="site-card" data-name="微信 wechat">
+                        <i class="fab fa-weixin"></i>
+                        <span>微信</span>
+                    </a>
+                    <a href="https://qq.com" target="_blank" class="site-card" data-name="qq 腾讯">
+                        <i class="fab fa-qq"></i>
+                        <span>QQ</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="category">
+                <h2>学习资源</h2>
+                <div class="sites-grid">
+                    <a href="https://zh.wikipedia.org" target="_blank" class="site-card" data-name="wikipedia 维基百科">
+                        <i class="fab fa-wikipedia-w"></i>
+                        <span>维基百科</span>
+                    </a>
+                    <a href="https://leetcode.com" target="_blank" class="site-card" data-name="leetcode">
+                        <i class="fas fa-code"></i>
+                        <span>LeetCode</span>
+                    </a>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>我的个人导航 - 快速访问常用网站</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
